@@ -34,6 +34,9 @@ public class CreateFile {
             if(!fileConfig.exists()){
                 this.directory.mkdir();
                 this.fileConfig.createNewFile();
+                this.ymlConfig.set("Account-notification.account", "");
+                this.ymlConfig.set("Account-notification.password", "");
+                this.ymlConfig.set("Remember-Account.status", false);
                 this.ymlConfig.set("Remember-Account.status", false);
                 this.ymlConfig.set("Remember-Account.account", "");
                 this.ymlConfig.set("Remember-Account.password", "");
@@ -93,6 +96,14 @@ public class CreateFile {
             e.printStackTrace();
         }
         return status;
+    }
+    
+    public String getAccountNotification(){
+        return this.ymlConfig.getString("Account-notification.account");
+    }
+    
+    public String getAccountPasswordNotification(){
+        return this.ymlConfig.getString("Account-notification.password");
     }
     
     public boolean isRememberAccountStatus(){

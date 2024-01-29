@@ -41,27 +41,22 @@ public class ViewRegisterSQL extends javax.swing.JFrame {
         jpiBackground.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 80, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Californian FB", 0, 14)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("Ip:");
         jpiBackground.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 140, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Californian FB", 0, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("Port:");
         jpiBackground.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 170, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Californian FB", 0, 14)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("Database:");
         jpiBackground.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 200, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Californian FB", 0, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("Username:");
         jpiBackground.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, -1));
 
         jLabel6.setFont(new java.awt.Font("Californian FB", 0, 14)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setText("Password:");
         jpiBackground.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 260, -1, -1));
 
@@ -81,10 +76,9 @@ public class ViewRegisterSQL extends javax.swing.JFrame {
         jpiBackground.add(jpfPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 260, 190, 20));
 
         jckbShowPassword.setFont(new java.awt.Font("Californian FB", 0, 14)); // NOI18N
-        jckbShowPassword.setForeground(new java.awt.Color(0, 0, 0));
         jckbShowPassword.setText("Mostra contraseña");
+        jckbShowPassword.setContentAreaFilled(false);
         jckbShowPassword.setIcon(new javax.swing.ImageIcon(getClass().getResource("/net/team4/images/ckbLogin20x20_OFF.png"))); // NOI18N
-        jckbShowPassword.setOpaque(false);
         jckbShowPassword.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/net/team4/images/ckbLogin20x20_ON.png"))); // NOI18N
         jpiBackground.add(jckbShowPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 290, -1, -1));
 
@@ -92,7 +86,7 @@ public class ViewRegisterSQL extends javax.swing.JFrame {
         jbtRegisterSQL.setBorder(null);
         jbtRegisterSQL.setBorderPainted(false);
         jbtRegisterSQL.setContentAreaFilled(false);
-        jbtRegisterSQL.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jbtRegisterSQL.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jbtRegisterSQL.setDefaultCapable(false);
         jbtRegisterSQL.setFocusPainted(false);
         jbtRegisterSQL.setFocusable(false);
